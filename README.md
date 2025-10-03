@@ -74,3 +74,16 @@ bash ${HOME}/TAP_final/scripts/run_eval.sh
 Like the training script, fields in run_eval.sh can be changed based off the settings and algorithm being evaluted.
 
 NOTE: Exactly like run_train.sh, make sure to turn off offline mode when running run_eval.sh for the first time to download the test dataset splits.
+
+## Citation
+
+If you find this repository useful, please consider citing our paper:
+
+```bibtex
+@article{lee2025tap,
+  title={TAP: Two-Stage Adaptive Personalization of Multi-task and Multi-Modal Foundation Models in Federated Learning},
+  author={Lee, Seohyun and Fang, Wenzhi and Han, Dong-Jun and Hosseinalipour, Seyyedali and Brinton, Christopher G},
+  journal={arXiv preprint arXiv:2509.26524},
+  year={2025}
+}
+```
